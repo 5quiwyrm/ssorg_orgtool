@@ -20,8 +20,8 @@ The keybinds for ssorg are very simple, they are:
 ## Indexing system
 You can specify the target of a command by using numbers and symbols, for example:
 ```
-1: +0   | +0   | Uncompleted | NoTag | say hi | \[U: 1, C: 0, P: 0, A: 0\]
-  0: +0   | +0   | Uncompleted | NoTag | say h | \[U: 0, C: 0, P: 0, A: 0\]
-  1: +0   | +0   | Uncompleted | NoTag | say i | \[U: 0, C: 0, P: 0, A: 0\]
+1: +0   | +0   | Uncompleted | NoTag | say hi | [U: 1, C: 0, P: 0, A: 0]
+  0: +0   | +0   | Uncompleted | NoTag | say h | [U: 0, C: 0, P: 0, A: 0]
+  1: +0   | +0   | Uncompleted | NoTag | say i | [U: 0, C: 0, P: 0, A: 0]
 ```
 `ssorg mc 10` completes the task "say h", whereas `ssorg d 11` deletes the task "say i"
